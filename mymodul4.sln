@@ -85,7 +85,7 @@ def authorize(kasutaja_nimi: str, parool: str) -> any:
     # Kasutaja sisselogimisnime indeksi hankimine loendis
     index = login_password_list[0].index(kasutaja_nimi)
 
-    # vaaatame kas parool on õige
+    # vaaatame kas parool on Ãµige
     if parool != login_password_list[1][index]:
         print("vale parool!")
         return False
